@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A81C2C4D24C0C87C00B37348 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81C2C4C24C0C87C00B37348 /* AppDelegate.swift */; };
+		A81C2C4F24C0C87C00B37348 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81C2C4E24C0C87C00B37348 /* SceneDelegate.swift */; };
+		A81C2C5124C0C87C00B37348 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81C2C5024C0C87C00B37348 /* ViewController.swift */; };
+		A81C2C5424C0C87C00B37348 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A81C2C5224C0C87C00B37348 /* Main.storyboard */; };
+		A81C2C5624C0C87D00B37348 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A81C2C5524C0C87D00B37348 /* Assets.xcassets */; };
+		A81C2C5924C0C87D00B37348 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A81C2C5724C0C87D00B37348 /* LaunchScreen.storyboard */; };
+		A81C2C6424C0C87E00B37348 /* morno_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81C2C6324C0C87E00B37348 /* morno_testTests.swift */; };
+		A81C2C6F24C0C87E00B37348 /* morno_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81C2C6E24C0C87E00B37348 /* morno_testUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A81C2C6024C0C87E00B37348 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A81C2C4124C0C87C00B37348 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A81C2C4824C0C87C00B37348;
+			remoteInfo = "morno test";
+		};
+		A81C2C6B24C0C87E00B37348 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A81C2C4124C0C87C00B37348 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A81C2C4824C0C87C00B37348;
+			remoteInfo = "morno test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A81C2C4924C0C87C00B37348 /* morno test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "morno test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A81C2C4C24C0C87C00B37348 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A81C2C4E24C0C87C00B37348 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A81C2C5024C0C87C00B37348 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A81C2C5324C0C87C00B37348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A81C2C5524C0C87D00B37348 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A81C2C5824C0C87D00B37348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A81C2C5A24C0C87D00B37348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A81C2C5F24C0C87E00B37348 /* morno testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "morno testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A81C2C6324C0C87E00B37348 /* morno_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = morno_testTests.swift; sourceTree = "<group>"; };
+		A81C2C6524C0C87E00B37348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A81C2C6A24C0C87E00B37348 /* morno testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "morno testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A81C2C6E24C0C87E00B37348 /* morno_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = morno_testUITests.swift; sourceTree = "<group>"; };
+		A81C2C7024C0C87E00B37348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A81C2C4624C0C87C00B37348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A81C2C5C24C0C87E00B37348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A81C2C6724C0C87E00B37348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A81C2C4024C0C87C00B37348 = {
+			isa = PBXGroup;
+			children = (
+				A81C2C4B24C0C87C00B37348 /* morno test */,
+				A81C2C6224C0C87E00B37348 /* morno testTests */,
+				A81C2C6D24C0C87E00B37348 /* morno testUITests */,
+				A81C2C4A24C0C87C00B37348 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A81C2C4A24C0C87C00B37348 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A81C2C4924C0C87C00B37348 /* morno test.app */,
+				A81C2C5F24C0C87E00B37348 /* morno testTests.xctest */,
+				A81C2C6A24C0C87E00B37348 /* morno testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A81C2C4B24C0C87C00B37348 /* morno test */ = {
+			isa = PBXGroup;
+			children = (
+				A81C2C4C24C0C87C00B37348 /* AppDelegate.swift */,
+				A81C2C4E24C0C87C00B37348 /* SceneDelegate.swift */,
+				A81C2C5024C0C87C00B37348 /* ViewController.swift */,
+				A81C2C5224C0C87C00B37348 /* Main.storyboard */,
+				A81C2C5524C0C87D00B37348 /* Assets.xcassets */,
+				A81C2C5724C0C87D00B37348 /* LaunchScreen.storyboard */,
+				A81C2C5A24C0C87D00B37348 /* Info.plist */,
+			);
+			path = "morno test";
+			sourceTree = "<group>";
+		};
+		A81C2C6224C0C87E00B37348 /* morno testTests */ = {
+			isa = PBXGroup;
+			children = (
+				A81C2C6324C0C87E00B37348 /* morno_testTests.swift */,
+				A81C2C6524C0C87E00B37348 /* Info.plist */,
+			);
+			path = "morno testTests";
+			sourceTree = "<group>";
+		};
+		A81C2C6D24C0C87E00B37348 /* morno testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A81C2C6E24C0C87E00B37348 /* morno_testUITests.swift */,
+				A81C2C7024C0C87E00B37348 /* Info.plist */,
+			);
+			path = "morno testUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A81C2C4824C0C87C00B37348 /* morno test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A81C2C7324C0C87E00B37348 /* Build configuration list for PBXNativeTarget "morno test" */;
+			buildPhases = (
+				A81C2C4524C0C87C00B37348 /* Sources */,
+				A81C2C4624C0C87C00B37348 /* Frameworks */,
+				A81C2C4724C0C87C00B37348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "morno test";
+			productName = "morno test";
+			productReference = A81C2C4924C0C87C00B37348 /* morno test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A81C2C5E24C0C87E00B37348 /* morno testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A81C2C7624C0C87E00B37348 /* Build configuration list for PBXNativeTarget "morno testTests" */;
+			buildPhases = (
+				A81C2C5B24C0C87E00B37348 /* Sources */,
+				A81C2C5C24C0C87E00B37348 /* Frameworks */,
+				A81C2C5D24C0C87E00B37348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A81C2C6124C0C87E00B37348 /* PBXTargetDependency */,
+			);
+			name = "morno testTests";
+			productName = "morno testTests";
+			productReference = A81C2C5F24C0C87E00B37348 /* morno testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A81C2C6924C0C87E00B37348 /* morno testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A81C2C7924C0C87E00B37348 /* Build configuration list for PBXNativeTarget "morno testUITests" */;
+			buildPhases = (
+				A81C2C6624C0C87E00B37348 /* Sources */,
+				A81C2C6724C0C87E00B37348 /* Frameworks */,
+				A81C2C6824C0C87E00B37348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A81C2C6C24C0C87E00B37348 /* PBXTargetDependency */,
+			);
+			name = "morno testUITests";
+			productName = "morno testUITests";
+			productReference = A81C2C6A24C0C87E00B37348 /* morno testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A81C2C4124C0C87C00B37348 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Harsh Topiwala";
+				TargetAttributes = {
+					A81C2C4824C0C87C00B37348 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					A81C2C5E24C0C87E00B37348 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = A81C2C4824C0C87C00B37348;
+					};
+					A81C2C6924C0C87E00B37348 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = A81C2C4824C0C87C00B37348;
+					};
+				};
+			};
+			buildConfigurationList = A81C2C4424C0C87C00B37348 /* Build configuration list for PBXProject "morno test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A81C2C4024C0C87C00B37348;
+			productRefGroup = A81C2C4A24C0C87C00B37348 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A81C2C4824C0C87C00B37348 /* morno test */,
+				A81C2C5E24C0C87E00B37348 /* morno testTests */,
+				A81C2C6924C0C87E00B37348 /* morno testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A81C2C4724C0C87C00B37348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A81C2C5924C0C87D00B37348 /* LaunchScreen.storyboard in Resources */,
+				A81C2C5624C0C87D00B37348 /* Assets.xcassets in Resources */,
+				A81C2C5424C0C87C00B37348 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A81C2C5D24C0C87E00B37348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A81C2C6824C0C87E00B37348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A81C2C4524C0C87C00B37348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A81C2C5124C0C87C00B37348 /* ViewController.swift in Sources */,
+				A81C2C4D24C0C87C00B37348 /* AppDelegate.swift in Sources */,
+				A81C2C4F24C0C87C00B37348 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A81C2C5B24C0C87E00B37348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A81C2C6424C0C87E00B37348 /* morno_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A81C2C6624C0C87E00B37348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A81C2C6F24C0C87E00B37348 /* morno_testUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A81C2C6124C0C87E00B37348 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A81C2C4824C0C87C00B37348 /* morno test */;
+			targetProxy = A81C2C6024C0C87E00B37348 /* PBXContainerItemProxy */;
+		};
+		A81C2C6C24C0C87E00B37348 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A81C2C4824C0C87C00B37348 /* morno test */;
+			targetProxy = A81C2C6B24C0C87E00B37348 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A81C2C5224C0C87C00B37348 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A81C2C5324C0C87C00B37348 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A81C2C5724C0C87D00B37348 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A81C2C5824C0C87D00B37348 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A81C2C7124C0C87E00B37348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A81C2C7224C0C87E00B37348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A81C2C7424C0C87E00B37348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34XNC54NT6;
+				INFOPLIST_FILE = "morno test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TopiCo.morno-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A81C2C7524C0C87E00B37348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34XNC54NT6;
+				INFOPLIST_FILE = "morno test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TopiCo.morno-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A81C2C7724C0C87E00B37348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34XNC54NT6;
+				INFOPLIST_FILE = "morno testTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TopiCo.morno-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/morno test.app/morno test";
+			};
+			name = Debug;
+		};
+		A81C2C7824C0C87E00B37348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34XNC54NT6;
+				INFOPLIST_FILE = "morno testTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TopiCo.morno-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/morno test.app/morno test";
+			};
+			name = Release;
+		};
+		A81C2C7A24C0C87E00B37348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34XNC54NT6;
+				INFOPLIST_FILE = "morno testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TopiCo.morno-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "morno test";
+			};
+			name = Debug;
+		};
+		A81C2C7B24C0C87E00B37348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34XNC54NT6;
+				INFOPLIST_FILE = "morno testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TopiCo.morno-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "morno test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A81C2C4424C0C87C00B37348 /* Build configuration list for PBXProject "morno test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A81C2C7124C0C87E00B37348 /* Debug */,
+				A81C2C7224C0C87E00B37348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A81C2C7324C0C87E00B37348 /* Build configuration list for PBXNativeTarget "morno test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A81C2C7424C0C87E00B37348 /* Debug */,
+				A81C2C7524C0C87E00B37348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A81C2C7624C0C87E00B37348 /* Build configuration list for PBXNativeTarget "morno testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A81C2C7724C0C87E00B37348 /* Debug */,
+				A81C2C7824C0C87E00B37348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A81C2C7924C0C87E00B37348 /* Build configuration list for PBXNativeTarget "morno testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A81C2C7A24C0C87E00B37348 /* Debug */,
+				A81C2C7B24C0C87E00B37348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A81C2C4124C0C87C00B37348 /* Project object */;
+}
