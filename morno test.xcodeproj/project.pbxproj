@@ -16,6 +16,8 @@
 		A81C2C6424C0C87E00B37348 /* morno_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81C2C6324C0C87E00B37348 /* morno_testTests.swift */; };
 		A81C2C6F24C0C87E00B37348 /* morno_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81C2C6E24C0C87E00B37348 /* morno_testUITests.swift */; };
 		A81C2C7D24C61DA300B37348 /* RecipeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81C2C7C24C61DA300B37348 /* RecipeCollectionViewCell.swift */; };
+		A8F0105824C6213800E23365 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F0105724C6213800E23365 /* Recipe.swift */; };
+		A8F0105A24C6237600E23365 /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F0105924C6237600E23365 /* RecipesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		A81C2C6E24C0C87E00B37348 /* morno_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = morno_testUITests.swift; sourceTree = "<group>"; };
 		A81C2C7024C0C87E00B37348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A81C2C7C24C61DA300B37348 /* RecipeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCollectionViewCell.swift; sourceTree = "<group>"; };
+		A8F0105724C6213800E23365 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		A8F0105924C6237600E23365 /* RecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				A81C2C5724C0C87D00B37348 /* LaunchScreen.storyboard */,
 				A81C2C5A24C0C87D00B37348 /* Info.plist */,
 				A81C2C7C24C61DA300B37348 /* RecipeCollectionViewCell.swift */,
+				A8F0105724C6213800E23365 /* Recipe.swift */,
+				A8F0105924C6237600E23365 /* RecipesViewController.swift */,
 			);
 			path = "morno test";
 			sourceTree = "<group>";
@@ -266,6 +272,8 @@
 				A81C2C5124C0C87C00B37348 /* ViewController.swift in Sources */,
 				A81C2C4D24C0C87C00B37348 /* AppDelegate.swift in Sources */,
 				A81C2C4F24C0C87C00B37348 /* SceneDelegate.swift in Sources */,
+				A8F0105A24C6237600E23365 /* RecipesViewController.swift in Sources */,
+				A8F0105824C6213800E23365 /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

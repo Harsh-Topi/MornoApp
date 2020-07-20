@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wj5-OL-HpB">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Recipes View Controller-->
         <scene sceneID="Squ-rx-LbM">
             <objects>
-                <viewController id="wj5-OL-HpB" sceneMemberID="viewController">
+                <viewController id="wj5-OL-HpB" customClass="RecipesViewController" customModule="morno_test" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Lh0-PW-IZY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -24,15 +24,9 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mav-al-uMs">
-                                <rect key="frame" x="16" y="848" width="62" height="30"/>
+                                <rect key="frame" x="16" y="832" width="62" height="30"/>
                                 <state key="normal" title="Favorites">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DqC-hV-CFQ">
-                                <rect key="frame" x="336" y="848" width="62" height="30"/>
-                                <state key="normal" title="Favorites">
-                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meals" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lz0-hP-uhs">
@@ -41,24 +35,24 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="UYG-r9-qTC">
-                                <rect key="frame" x="16" y="160" width="382" height="672"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="UYG-r9-qTC">
+                                <rect key="frame" x="0.0" y="144" width="414" height="664"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="30" minimumInteritemSpacing="20" id="gn9-We-tnL">
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="30" minimumInteritemSpacing="20" id="gn9-We-tnL">
                                     <size key="itemSize" width="200" height="400"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="20" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="YXN-PY-6te">
-                                        <rect key="frame" x="81" y="0.0" width="200" height="400"/>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="RecipeCollectionViewCell" id="YXN-PY-6te" customClass="RecipeCollectionViewCell" customModule="morno_test" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="132" width="200" height="400"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="AJG-Pd-Hw8">
                                             <rect key="frame" x="0.0" y="0.0" width="200" height="400"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Webp.net-resizeimage" translatesAutoresizingMaskIntoConstraints="NO" id="RFX-CT-RQz">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="f1" translatesAutoresizingMaskIntoConstraints="NO" id="RFX-CT-RQz">
                                                     <rect key="frame" x="0.0" y="0.0" width="200" height="400"/>
                                                 </imageView>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cPy-Vi-s52">
@@ -86,33 +80,48 @@
                                                 <constraint firstAttribute="trailing" secondItem="RFX-CT-RQz" secondAttribute="trailing" id="5et-jQ-MI4"/>
                                                 <constraint firstItem="RFX-CT-RQz" firstAttribute="leading" secondItem="AJG-Pd-Hw8" secondAttribute="leading" id="5s0-Sd-nT1"/>
                                                 <constraint firstAttribute="bottom" secondItem="RFX-CT-RQz" secondAttribute="bottom" id="FYQ-WZ-b8X"/>
+                                                <constraint firstAttribute="bottom" secondItem="cPy-Vi-s52" secondAttribute="bottom" id="GOT-71-MHj"/>
                                                 <constraint firstItem="cPy-Vi-s52" firstAttribute="top" secondItem="AJG-Pd-Hw8" secondAttribute="top" id="Kca-GC-lAz"/>
                                                 <constraint firstItem="cPy-Vi-s52" firstAttribute="leading" secondItem="AJG-Pd-Hw8" secondAttribute="leading" id="beI-ro-F8M"/>
                                                 <constraint firstAttribute="trailing" secondItem="cPy-Vi-s52" secondAttribute="trailing" id="qLM-3F-WFs"/>
                                             </constraints>
                                         </collectionViewCellContentView>
+                                        <connections>
+                                            <outlet property="backgroundColorView" destination="cPy-Vi-s52" id="YIX-6h-RpW"/>
+                                            <outlet property="featuredImageView" destination="RFX-CT-RQz" id="edL-Mb-2sM"/>
+                                            <outlet property="interestTitle" destination="yA6-Ue-bxz" id="Pqu-mg-flm"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DqC-hV-CFQ">
+                                <rect key="frame" x="336" y="832" width="62" height="30"/>
+                                <state key="normal" title="Favorites">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="Mav-al-uMs" firstAttribute="leading" secondItem="NYT-6k-7UG" secondAttribute="leading" constant="16" id="0Mt-3K-UkO"/>
-                            <constraint firstItem="UYG-r9-qTC" firstAttribute="leading" secondItem="NYT-6k-7UG" secondAttribute="leading" constant="16" id="0UO-gq-D8B"/>
+                            <constraint firstItem="UYG-r9-qTC" firstAttribute="leading" secondItem="NYT-6k-7UG" secondAttribute="leading" id="0UO-gq-D8B"/>
                             <constraint firstAttribute="trailing" secondItem="SrK-eC-3Dt" secondAttribute="trailing" constant="16" id="FL4-9i-aID"/>
-                            <constraint firstItem="UYG-r9-qTC" firstAttribute="top" secondItem="SrK-eC-3Dt" secondAttribute="bottom" constant="16" id="GiG-Q5-X8N"/>
+                            <constraint firstItem="UYG-r9-qTC" firstAttribute="top" secondItem="SrK-eC-3Dt" secondAttribute="bottom" id="GiG-Q5-X8N"/>
                             <constraint firstItem="lz0-hP-uhs" firstAttribute="top" secondItem="NYT-6k-7UG" secondAttribute="top" constant="38" id="JoF-ew-Ib8"/>
                             <constraint firstItem="NYT-6k-7UG" firstAttribute="trailing" secondItem="DqC-hV-CFQ" secondAttribute="trailing" constant="16" id="Khn-rR-YUj"/>
                             <constraint firstItem="SrK-eC-3Dt" firstAttribute="top" secondItem="lz0-hP-uhs" secondAttribute="bottom" constant="8" id="e4r-Gu-tW1"/>
-                            <constraint firstItem="NYT-6k-7UG" firstAttribute="trailing" secondItem="UYG-r9-qTC" secondAttribute="trailing" constant="16" id="f9D-VA-4n0"/>
+                            <constraint firstItem="NYT-6k-7UG" firstAttribute="trailing" secondItem="UYG-r9-qTC" secondAttribute="trailing" id="f9D-VA-4n0"/>
                             <constraint firstItem="SrK-eC-3Dt" firstAttribute="leading" secondItem="Lh0-PW-IZY" secondAttribute="leading" constant="16" id="oXf-bW-7hx"/>
-                            <constraint firstItem="DqC-hV-CFQ" firstAttribute="bottom" secondItem="NYT-6k-7UG" secondAttribute="bottom" constant="16" id="tNY-wi-rYE"/>
-                            <constraint firstItem="Mav-al-uMs" firstAttribute="top" secondItem="UYG-r9-qTC" secondAttribute="bottom" constant="16" id="tnZ-DS-OfL"/>
-                            <constraint firstItem="Mav-al-uMs" firstAttribute="bottom" secondItem="NYT-6k-7UG" secondAttribute="bottom" constant="16" id="zKg-PV-Z1A"/>
+                            <constraint firstItem="DqC-hV-CFQ" firstAttribute="bottom" secondItem="NYT-6k-7UG" secondAttribute="bottom" id="tNY-wi-rYE"/>
+                            <constraint firstItem="Mav-al-uMs" firstAttribute="top" secondItem="UYG-r9-qTC" secondAttribute="bottom" constant="24" id="tnZ-DS-OfL"/>
+                            <constraint firstItem="Mav-al-uMs" firstAttribute="bottom" secondItem="NYT-6k-7UG" secondAttribute="bottom" id="zKg-PV-Z1A"/>
                             <constraint firstItem="lz0-hP-uhs" firstAttribute="leading" secondItem="NYT-6k-7UG" secondAttribute="leading" constant="20" id="zsW-gq-SOp"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="NYT-6k-7UG"/>
                     </view>
+                    <connections>
+                        <outlet property="collectionView" destination="UYG-r9-qTC" id="Zt4-DT-5Ci"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a1I-Kd-MWq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -267,7 +276,7 @@
     <resources>
         <image name="Symbol" width="19" height="18"/>
         <image name="Symbol-1" width="16" height="18"/>
-        <image name="Webp.net-resizeimage" width="200" height="400"/>
+        <image name="f1" width="200" height="400"/>
         <image name="jorg-angeli-utgDEz8xgBI-unsplash" width="2668" height="3994"/>
         <image name="moon.zzz.fill" catalog="system" width="116" height="128"/>
         <image name="plus" catalog="system" width="128" height="113"/>
