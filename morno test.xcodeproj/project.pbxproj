@@ -18,6 +18,8 @@
 		A81C2C7D24C61DA300B37348 /* RecipeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81C2C7C24C61DA300B37348 /* RecipeCollectionViewCell.swift */; };
 		A8F0105824C6213800E23365 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F0105724C6213800E23365 /* Recipe.swift */; };
 		A8F0105A24C6237600E23365 /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F0105924C6237600E23365 /* RecipesViewController.swift */; };
+		A8F0105C24C7CE5300E23365 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F0105B24C7CE5300E23365 /* News.swift */; };
+		A8F0105E24C7D04200E23365 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F0105D24C7D04200E23365 /* NewsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		A81C2C7C24C61DA300B37348 /* RecipeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCollectionViewCell.swift; sourceTree = "<group>"; };
 		A8F0105724C6213800E23365 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		A8F0105924C6237600E23365 /* RecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
+		A8F0105B24C7CE5300E23365 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		A8F0105D24C7D04200E23365 /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,12 +113,14 @@
 				A81C2C4E24C0C87C00B37348 /* SceneDelegate.swift */,
 				A81C2C5024C0C87C00B37348 /* ViewController.swift */,
 				A81C2C5224C0C87C00B37348 /* Main.storyboard */,
+				A8F0105D24C7D04200E23365 /* NewsTableViewController.swift */,
 				A81C2C5524C0C87D00B37348 /* Assets.xcassets */,
 				A81C2C5724C0C87D00B37348 /* LaunchScreen.storyboard */,
 				A81C2C5A24C0C87D00B37348 /* Info.plist */,
 				A81C2C7C24C61DA300B37348 /* RecipeCollectionViewCell.swift */,
 				A8F0105724C6213800E23365 /* Recipe.swift */,
 				A8F0105924C6237600E23365 /* RecipesViewController.swift */,
+				A8F0105B24C7CE5300E23365 /* News.swift */,
 			);
 			path = "morno test";
 			sourceTree = "<group>";
@@ -272,6 +278,8 @@
 				A81C2C5124C0C87C00B37348 /* ViewController.swift in Sources */,
 				A81C2C4D24C0C87C00B37348 /* AppDelegate.swift in Sources */,
 				A81C2C4F24C0C87C00B37348 /* SceneDelegate.swift in Sources */,
+				A8F0105E24C7D04200E23365 /* NewsTableViewController.swift in Sources */,
+				A8F0105C24C7CE5300E23365 /* News.swift in Sources */,
 				A8F0105A24C6237600E23365 /* RecipesViewController.swift in Sources */,
 				A8F0105824C6213800E23365 /* Recipe.swift in Sources */,
 			);
