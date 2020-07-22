@@ -24,11 +24,20 @@ class NewsTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         // indexpath contains a section, and a row e.g Indexpath : [section, row]
-        let cell = tableView.dequeueReusableCell(withIdentifier: "NewsCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "NewsCell", for: indexPath) as! NewsTableViewCell
+        
         let new = news[indexPath.row]
-        cell.textLabel?.text = new.authorName
+        cell.news = new
         return cell
         
     }
+    
+    // MARK: - UITableViewDelegate
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
+    
     
 }
