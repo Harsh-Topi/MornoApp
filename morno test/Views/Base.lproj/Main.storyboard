@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="82o-tJ-oOz">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -267,6 +267,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="todLabel" destination="S5r-bd-5Bg" id="BFG-y3-uTU"/>
+                        <outlet property="weatherImg" destination="dnL-k8-5J9" id="GgO-iB-QFx"/>
+                        <outlet property="weatherStatement" destination="gHB-po-Dvd" id="FvW-Yu-LSV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -291,29 +296,20 @@
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="f2" translatesAutoresizingMaskIntoConstraints="NO" id="B72-XY-Xoh">
                                             <rect key="frame" x="36" y="27" width="342" height="204"/>
                                         </imageView>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowtriangle.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="S0d-iO-jHb">
-                                            <rect key="frame" x="46" y="160" width="64" height="59.5"/>
-                                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="64" id="g0i-8S-1qo"/>
-                                                <constraint firstAttribute="width" constant="64" id="wKw-4j-uLi"/>
-                                            </constraints>
-                                        </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Headline here." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zaw-ss-qhr">
-                                            <rect key="frame" x="118" y="176" width="170" height="29"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lalall a al al la l al lal la la la la l al jkjkljlkjlk" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zaw-ss-qhr">
+                                            <rect key="frame" x="46" y="125.5" width="326" height="57.5"/>
                                             <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="24"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="S0d-iO-jHb" firstAttribute="leading" secondItem="tSe-NA-XHY" secondAttribute="leadingMargin" constant="26" id="7z6-Jn-fTu"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="B72-XY-Xoh" secondAttribute="trailing" constant="16" id="BQi-Pz-FFG"/>
-                                        <constraint firstItem="zaw-ss-qhr" firstAttribute="leading" secondItem="S0d-iO-jHb" secondAttribute="trailing" constant="8" id="Gww-Cu-UkG"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="B72-XY-Xoh" secondAttribute="bottom" constant="8" id="Ino-sM-z3A"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="S0d-iO-jHb" secondAttribute="bottom" constant="17" id="OUe-Gv-vn3"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="zaw-ss-qhr" secondAttribute="trailing" constant="22" id="J9x-Yh-ZE0"/>
+                                        <constraint firstItem="zaw-ss-qhr" firstAttribute="leading" secondItem="tSe-NA-XHY" secondAttribute="leadingMargin" constant="26" id="ZGt-lB-9gp"/>
                                         <constraint firstItem="B72-XY-Xoh" firstAttribute="top" secondItem="tSe-NA-XHY" secondAttribute="topMargin" constant="16" id="dgj-Nl-v6o"/>
-                                        <constraint firstAttribute="bottom" secondItem="zaw-ss-qhr" secondAttribute="bottom" constant="45" id="h57-LA-hnR"/>
+                                        <constraint firstAttribute="bottom" secondItem="zaw-ss-qhr" secondAttribute="bottom" constant="67" id="h57-LA-hnR"/>
                                         <constraint firstItem="B72-XY-Xoh" firstAttribute="leading" secondItem="tSe-NA-XHY" secondAttribute="leadingMargin" constant="16" id="kQg-Xp-1Fz"/>
                                     </constraints>
                                 </tableViewCellContentView>
@@ -354,7 +350,6 @@
     <resources>
         <image name="Symbol" width="19" height="18"/>
         <image name="Symbol-1" width="16" height="18"/>
-        <image name="arrowtriangle.right" catalog="system" width="128" height="113"/>
         <image name="f1" width="200" height="400"/>
         <image name="f2" width="3465" height="2131"/>
         <image name="jorg-angeli-utgDEz8xgBI-unsplash" width="2668" height="3994"/>
